@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: #ffffffff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    outline: none;
+   
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background: black;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px rgba(78, 87, 90, 0.5),
+                      5px 5px 12px rgba(253, 2, 178, 0.22) ;
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+}
+input{
+    grid-column: span 4;
+    height: 74px;
+    background: black;
+    box-shadow: inset -5px -5px 12px rgba(78, 87, 90, 0.5),
+                inset 5px  5px 12px rgba(66, 56, 59, 0.041);
+    border: none ;
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.705);
+    text-align: end;
+    padding: 15px;
+    margin: 2px;
+    margin-top: 40px;
+    margin-bottom: 30px; 
+    font-size: 4vh;
+}
+button{
+    height: 58px;
+    width: 58px;
+    margin: 10px;
+    border-radius: 100%;
+    padding: 15px;
+    font-size: 16px;
+    box-shadow:  2px -2px 10px rgba(255, 255, 255, 0.5),
+                 inset  5px 5px 12px rgba(0, 1, 66, 0.363) ;
+      
+}
+.equal{
+    width: 125px;
+    border-radius: 40px;
+   
+} 
+
+
